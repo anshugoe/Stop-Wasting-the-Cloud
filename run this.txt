@@ -1,2 +1,2 @@
-docker build -t sbakshi/boinc/ubuntu .
-docker run -ti -d --name wcg_ubuntu -e "boincurl=www.worldcommunitygrid.org" -e "boinckey=0306042ebf9cb4311fef19de74b91a2e" sbakshi/boinc/ubuntu
+docker build -t sbakshi/boinc/centos .
+docker run -ti -d --name wcg_centos -e "boincurl=www.worldcommunitygrid.org" -e "boinckey=0306042ebf9cb4311fef19de74b91a2e" sbakshi/boinc/centos
